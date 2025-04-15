@@ -21,6 +21,7 @@ end
 vim.opt.runtimepath:prepend(lazypath)
 
 local plugins = {
+	"prisma/vim-prisma",
   {
     "williamboman/mason.nvim",
     opts = {
